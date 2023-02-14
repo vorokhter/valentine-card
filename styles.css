@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #DFBFD7;
+  font-family: "Lora", serif;
+  padding: 0 25px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit; 
+  font-size: 24px;
+}
+
+.valentine {
+  max-height: 50vh;
+  animation: animate-grow 1.5s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes animate-grow {
+  0% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  14% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  28% {
+    transform: scale3d(1, 1, 1);
+  }
+}
