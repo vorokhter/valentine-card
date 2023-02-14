@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit; 
+}
+
 body {
   display: flex;
   align-items: center;
@@ -15,14 +24,14 @@ body {
   padding: 0 25px;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-}
-
-button {
-  font: inherit; 
+.btn {
   font-size: 24px;
+  background-color: #F2F3F4;
+  padding: 4px 12px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: gray;
+  color: #131313;
 }
 
 .valentine {
